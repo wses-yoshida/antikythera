@@ -123,6 +123,7 @@ defmodule Antikythera.Mixfile do
       {:makeup       , "1.0.0" , [indirect: true, only: :dev]}, # makeup_elixir
       {:nimble_parsec, "0.5.2" , [indirect: true, only: :dev]}, # makeup
       {:file_system  , "0.2.7" , [indirect: true, only: :dev]}, # exsync and mix_test_watch
+      {:mongodb, ">= 0.0.0"},
     ]
   end
 
